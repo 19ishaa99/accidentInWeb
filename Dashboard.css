@@ -1,0 +1,135 @@
+.jumbotron{
+    background-color: #00160d;
+    height: 100%;
+}
+.clearfix{
+    clear: both;
+}
+.logo{
+    margin: 0px;
+    margin-left: 28px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 35px;
+    font-size: 25px;
+}
+.logo span{
+    color: yellow;
+}
+.sidenave{
+    height: 100%;
+    width: 290px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #00160d;
+    overflow: hidden;
+    transition: 0.5s;
+    padding-top: 30px;
+}
+
+.sidenave a{
+    padding: 15px 8px 15px 32px;
+    text-decoration: none;
+    font-size: 21px;
+    color: white;
+    display: block;
+    transition: 0.3px;
+}
+
+.sidenave a:hover{
+    color: lightseagreen;
+}
+
+#main{
+    transition: margin-left .5s;
+    padding: 16px;
+    margin-left: 300px;
+}
+.head{
+    background-color: brown;
+    height: 10%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0.0;
+    left: 290px;
+    margin-bottom: 20px;
+}
+.col-div-6{
+    width: 50%;
+    float: left;
+    
+}
+.profile{
+    width: 60px;
+}
+.pro-img{
+    margin-left: 130px;
+    width: 60px;
+    margin-top: 2px;
+    height: 60px;
+    border: 1px solid transparent;
+    border-color: green;
+    border-radius: 60px;
+}
+.nav{
+    display: none;
+}
+.col-div-3{
+    width: 30%;
+    float: left;
+}
+.box{
+    width: 80%;
+    height: 130px;
+    background-color: #02523e;
+    margin-left: 50px;
+    padding: 10px;
+}
+.box label{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    line-height: 30px;
+    padding-left: 10px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.box-icon{
+font-size: 40px;
+float: right;
+margin-top: 35px;
+color: black;
+padding-right: 10px;
+}
+.col-div-8{
+    width: 95%;
+    float: left;
+}
+.content-box{
+    padding: 20px;
+}
+.content-box p{
+    margin: 0px;
+    font-size: 20px;
+    color: yellow;
+}
+.box-8{
+    background-color: #02523e;
+    height: 570px;
+    margin-left: 10px;
+    width: 100%;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td{
+    text-align: left;
+    padding: 15px;
+    color: white;
+    border-bottom: 1px solid #81818149;
+    font-size: 20px;
+}
