@@ -2,6 +2,9 @@
   session_start();
 //Database Configuration File
 require('connection.php');
+
+// print("hello there!");
+
 header ('location:Dashboard.php');
 //error_reporting(0);
   if(isset($_POST['login']))

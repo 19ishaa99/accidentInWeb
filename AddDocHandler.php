@@ -24,12 +24,17 @@ if (isset($_SESSION['login_error'])) {
 
        $Gender = $_POST['gender'];
        $Name = $_POST['name'];
-       $Role = $_POST['role'];
+       $Role = $_POST['role']; //role should be added as doctor because we adding a doctor here
        $Address = $_POST['address'];
        $PhoneNo = $_POST['phoneNo'];
        $Email = $_POST['email'];
        $password = $_POST['password'];
        $Password1 = password_hash($password, PASSWORD_DEFAULT);
+
+    //    print_r($_POST);
+
+    echo(password_hash("123", PASSWORD_DEFAULT));
+
        $stmt = $connection->prepare('INSERT INTO `usertable`(`Name`, `Role`, `PhoneNo`, `Address`, `Gender`, `Email`, `Password`) VALUES (:name,:role,:Phone,:address,:gender,:email,:password)'); 
        $result = $stmt->execute([':name'=>$Name,':role'=>$Role,':Phone'=>$PhoneNo,':address'=>$Address,':gender'=>$Gender,':email'=>$Email,':password'=>$Password1]);
 

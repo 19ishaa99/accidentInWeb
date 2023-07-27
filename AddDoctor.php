@@ -45,7 +45,7 @@
                    <form  class = '' action="AddDocHandler.php" method="post">
                     <h4>ADD NEW DOCTOR</h4>
                     <div class="form-control"><label for="">Name</label>
-                    <input type="text" placeholder="enter name" name="name">
+                    <input type="text"  placeholder="enter name" name="name">
                     </div>
                     <div class="form-control"><label for="">Address</label>
                         <input type="text" placeholder="enter address" name="address">
@@ -62,7 +62,7 @@
                                 <div class="form-control"><label for="">E-mail</label>
                                     <input type="text" placeholder="enter email" name="email">
                                     </div>
-                                    <div class="form-control"><label for="">Address</label>
+                                    <div class="form-control"><label for="">Passowrd</label>
                         <input type="text" placeholder="enter password" name="password">
                         </div>
                                     <div>

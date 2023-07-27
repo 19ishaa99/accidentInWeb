@@ -1,10 +1,11 @@
 <?php
 session_start();
-require_once '../store/db.php';
+// require_once '../store/db.php';
+require_once("./connection.php");
 
 
 
-$pdo = connection();
+// $pdo = connection();
 
 if (isset($_SESSION['login_error'])) {
     unset($_SESSION['login_error']);
