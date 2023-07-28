@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.login-container {
+    background: url('./../img/fotor-ai-2023072893651_1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.login-form {
+    background-color: rgba(255, 255, 255, .6) !important;
+    padding: 25px 30px;
+    
+}
